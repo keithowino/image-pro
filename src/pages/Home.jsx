@@ -9,7 +9,8 @@ const Home = () => {
 	return (
 		<>
 			<MetaDataInsert title={metadata.title} />
-			<section className="home">
+			<section className="home container mx-auto">
+				{/* <section className="home max-w-4xl mx-auto"> */}
 				<Navbar />
 				<UploadForm />
 				<ImageGallery />
